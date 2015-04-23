@@ -45,6 +45,7 @@ private
       email_signup_enabled: metadata.fetch("signup_enabled", false),
       filter: metadata.fetch("filter", {}),
       format_name: metadata.fetch("format_name", nil),
+      logo_path: metadata.fetch("logo_path", nil),
       signup_link: metadata.fetch("signup_link", nil),
       show_summaries: metadata.fetch("show_summaries", false),
       summary: metadata.fetch("summary", nil),
